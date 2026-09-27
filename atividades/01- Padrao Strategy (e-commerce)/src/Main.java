@@ -6,6 +6,7 @@ public class Main {
 
         // SEDEX
         Pedido pedidoGeoris = new Pedido(10, new FreteSedex()); // criando o objeto na hora
+
         System.out.println("SEDEX: R$ " + pedidoGeoris.calcularFrete());
 
         // PAC
